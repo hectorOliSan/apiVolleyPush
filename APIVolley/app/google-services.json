@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375931369062",
+    "project_id": "apivolleypush",
+    "storage_bucket": "apivolleypush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375931369062:android:5431c33c1730a9ea6f5fa7",
+        "android_client_info": {
+          "package_name": "pgv.apivolley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375931369062-5eimujtvu0o7n5322ntm5v1de6dbsvm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLFLI0Z_bTlzHq7N502EvRW8uTINnJ0_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375931369062-5eimujtvu0o7n5322ntm5v1de6dbsvm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

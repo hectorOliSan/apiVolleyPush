@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp" >
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/conf" />
+
+    <!-- IP -->
+    <EditText android:id="@+id/etIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:hint="@string/ip"
+        android:importantForAutofill="no"
+        android:maxLength="28"
+        android:textAlignment="center" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:hint="@string/ipP" />
+
+    <!-- API -->
+    <EditText android:id="@+id/etApi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:hint="@string/api"
+        android:importantForAutofill="no"
+        android:maxLength="40"
+        android:textAlignment="center" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:hint="@string/apiP" />
+
+    <!-- GET -->
+    <EditText android:id="@+id/etGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:hint="@string/get"
+        android:importantForAutofill="no"
+        android:maxLength="15"
+        android:textAlignment="center" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:hint="@string/getP" />
+
+    <!-- POST -->
+    <EditText android:id="@+id/etPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:hint="@string/post"
+        android:importantForAutofill="no"
+        android:maxLength="15"
+        android:textAlignment="center" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:hint="@string/postP" />
+
+    <!-- PUT -->
+    <EditText android:id="@+id/etPut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:hint="@string/put"
+        android:importantForAutofill="no"
+        android:maxLength="15"
+        android:textAlignment="center" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:hint="@string/putP" />
+
+    <!-- DELETE -->
+    <EditText android:id="@+id/etDel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:hint="@string/del"
+        android:importantForAutofill="no"
+        android:maxLength="15"
+        android:textAlignment="center" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:hint="@string/delP" />
+
+    <Button android:id="@+id/btnG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/guardar"/>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp" >
+
+    <TextView android:id="@+id/etLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- ISBN -->
+    <EditText android:id="@+id/etIsbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:hint="@string/isbn"
+        android:importantForAutofill="no"
+        android:maxLength="13" />
+
+    <!-- TITULO -->
+    <EditText android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:hint="@string/titulo"
+        android:importantForAutofill="no"
+        android:maxLength="20" />
+
+    <!-- AUTOR -->
+    <EditText android:id="@+id/etAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:hint="@string/autor"
+        android:importantForAutofill="no"
+        android:maxLength="20" />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <!-- STOCK -->
+        <EditText android:id="@+id/etStock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:hint="@string/stock"
+            android:importantForAutofill="no"
+            android:layout_weight="1"
+            android:maxLength="5" />
+
+        <!-- PRECIO -->
+        <EditText android:id="@+id/etPrecio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:hint="@string/precio"
+            android:importantForAutofill="no"
+            android:layout_weight="1"
+            android:maxLength="5" />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:gravity="center_horizontal" >
+
+        <Button android:id="@+id/btnElim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="@string/elim" />
+
+        <Space android:id="@+id/space"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

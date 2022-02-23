@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">APIVolley</string>
+
+    <string name="isbn">ISBN:</string>
+    <string name="titulo">TITULO:</string>
+    <string name="autor">AUTOR:</string>
+    <string name="stock">STOCK:</string>
+    <string name="precio">PRECIO:</string>
+
+    <string name="conf">Configuración</string>
+    <string name="acerca">Acerca de</string>
+    <string name="salir">Salir</string>
+
+    <string name="elim">eliminar</string>
+    <string name="crear">crear</string>
+    <string name="actu">actualizar</string>
+
+    <string name="elimC">Eliminado Correctamente</string>
+    <string name="crearC">Creado Correctamente</string>
+    <string name="actuC">Actualizado Correctamente</string>
+
+    <string name="elimL">Eliminación de Libro</string>
+
+    <string name="ip">IP:</string>
+    <string name="ipP">IP Predeterminada: http://10.0.2.2:8080/</string>
+    <string name="api">API:</string>
+    <string name="apiP">API Predeterminada: SBJPAMysql-0.0.1-SNAPSHOT/api/</string>
+    <string name="get">GET:</string>
+    <string name="getP">GET Predeterminado: libros</string>
+    <string name="post">POST:</string>
+    <string name="postP">POST Predeterminado: createLibro</string>
+    <string name="put">PUT:</string>
+    <string name="putP">PUT Predeterminado: updateLibro</string>
+    <string name="del">DELETE:</string>
+    <string name="delP">DELETE Predeterminado: deleteLibro</string>
+
+    <string name="guardar">guardar</string>
+
+    <string name="editL">Editar Libro</string>
+    <string name="crearL">Crear Libro</string>
+</resources>

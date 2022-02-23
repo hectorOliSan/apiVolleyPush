@@ -1,0 +1,6 @@
+Actividad 5 - API REST - APP - Notificaciones PUSH
+Deben subir el proyecto de Eclipse en String Boot que implementa la API REST, la apk del móvil y el código fuente de la app móvil. Se deben incorporar las notificaciones push a la app. La app debe mostrar en un activity la notificación recibida.
+
+También tienen que enseñarse el clase todo el proyecto probando que funciona correctamente.
+
+El próximo miércoles, 2 de marzo, lo dedicaremos a revisar el proyecto a los que le falten.
