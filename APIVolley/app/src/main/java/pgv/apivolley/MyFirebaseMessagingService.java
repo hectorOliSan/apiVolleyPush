@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
+import android.os.Bundle;
 import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
@@ -30,10 +31,14 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
             String messageTitle = remoteMessage.getNotification().getTitle();
 
             // Leer datos personalizados.
-            String url = remoteMessage.getData().get("url");
-            Log.v("Push:", url);
+            //String url = remoteMessage.getData().get("url");
+            //Log.v("Push:", url);
 
             Intent intent = new Intent(this, NotificacionActivity.class);
+            Bundle b = new Bundle();
+            b.putString("title", messageTitle);
+            b.putString("message", messageBody);
+            intent.putExtras(b);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
             @SuppressLint("UnspecifiedImmutableFlag") PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_ONE_SHOT);
